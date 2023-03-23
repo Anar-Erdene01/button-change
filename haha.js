@@ -1,5 +1,7 @@
-const myButton = document.getElementById("myButton");
+const button = document.getElementById("myButton");
+const square = document.querySelector(".square");
 
-myButton.addEventListener("click", function() {
-  myButton.classList.add("clicked");
+button.addEventListener("click", function() {
+  button.classList.add("clicked");
+  square.style.backgroundColor = "lightgreen";
 });

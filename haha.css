@@ -1,8 +1,24 @@
-#myButton {
-    background-color: blue;
-    color: white;
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
-  #myButton.clicked {
+  button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
     background-color: red;
+  }
+  
+  button.clicked {
+    background-color: green;
   }
