@@ -3,6 +3,7 @@
     height: 200px;
     background-color: lightgray;
     display: flex;
+    margin-top: auto;
     justify-content: center;
     align-items: center;
   }
