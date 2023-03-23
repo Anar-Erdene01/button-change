@@ -24,9 +24,9 @@ button {
 }
 
 button:hover {
-  background-color: red;
+  background-color: #23395d;
 }
 
 button.clicked {
-  background-color: green;
+  background-color: #808000;
 }
