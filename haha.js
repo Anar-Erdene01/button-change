@@ -1,7 +1,7 @@
 const button = document.getElementById("myButton");
+const square = document.querySelector(".square");
 
 button.addEventListener("click", function() {
   button.classList.add("clicked");
-  button.style.backgroundColor = "lightgreen";
+  square.style.backgroundColor = "lightgreen";
 });
-
